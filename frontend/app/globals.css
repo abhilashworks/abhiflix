@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #0b0b0e;
+  color: #e5e5e5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Netflix cinematic gradient overlay */
+.hero-vignette {
+  background: linear-gradient(
+    77deg,
+    rgba(11, 11, 14, 0.95) 0%,
+    rgba(11, 11, 14, 0.75) 45%,
+    rgba(11, 11, 14, 0.1) 85%
+  );
+}
+
+.bottom-fade {
+  background: linear-gradient(180deg, transparent 0%, rgba(11, 11, 14, 0.8) 60%, #0b0b0e 100%);
+}
+
+/* Netflix 3D Card Hover Lift & Tilt */
+.netflix-card {
+  transition: transform 0.35s cubic-bezier(0.2, 0, 0.2, 1), box-shadow 0.35s cubic-bezier(0.2, 0, 0.2, 1);
+  transform-origin: center center;
+  transform-style: preserve-3d;
+}
+
+.netflix-card:hover {
+  transform: scale(1.08) translateY(-6px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.8), 0 0 20px rgba(229, 9, 20, 0.25);
+  z-index: 30;
+}
+
+/* Custom horizontal row scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
