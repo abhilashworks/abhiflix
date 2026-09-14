@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     'GITAM University',
     'Next.js Portfolio'
   ],
-  authors: [{ name: 'Palem Ganga Abhilash Reddy', url: 'https://abhiflix.vercel.app' }],
+  authors: [{ name: 'Palem Ganga Abhilash Reddy', url: 'https://abhiflix-phi.vercel.app' }],
   creator: 'Palem Ganga Abhilash Reddy',
-  metadataBase: new URL('https://abhiflix.vercel.app'),
+  metadataBase: new URL('https://abhiflix-phi.vercel.app'),
   alternates: {
     canonical: '/',
   },
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: 'Palem Ganga Abhilash Reddy | Full-Stack Architect & ML Engineer',
     description:
       'Explore AbhiFlix: The Netflix-themed engineering portfolio of Palem Ganga Abhilash Reddy featuring production web architectures and machine learning systems.',
-    url: 'https://abhiflix.vercel.app',
+    url: 'https://abhiflix-phi.vercel.app',
     siteName: 'AbhiFlix — Palem Ganga Abhilash Reddy',
     images: [
       {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "SD2bK2MHpmkqEluexwbIpeLx_68Dy-AzTWj3HScTSew",
+    google: 'SD2bK2MHpmkqEluexwbIpeLx_68Dy-AzTWj3HScTSew',
   },
 };
 
@@ -71,8 +71,8 @@ export default function RootLayout({
     '@type': 'Person',
     name: 'Palem Ganga Abhilash Reddy',
     alternateName: ['Abhilash Reddy', 'Abhi'],
-    url: 'https://abhiflix.vercel.app',
-    image: 'https://abhiflix.vercel.app/images/kerala.jpeg',
+    url: 'https://abhiflix-phi.vercel.app',
+    image: 'https://abhiflix-phi.vercel.app/images/kerala.jpeg',
     jobTitle: 'Full-Stack Developer & Machine Learning Engineer',
     alumniOf: {
       '@type': 'CollegeOrUniversity',

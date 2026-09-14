@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next';
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://abhiflix.vercel.app',
+      url: 'https://abhiflix-phi.vercel.app',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1.0,
